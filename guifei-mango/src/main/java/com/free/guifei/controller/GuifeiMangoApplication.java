@@ -1,4 +1,4 @@
-package com.free.guifei;
+package com.free.guifei.controller;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
