@@ -1,12 +1,14 @@
 package com.free.guifei;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController("/mango")
+@RestController
+@RequestMapping("/guifei")
 public class FirstMangoController {
 
-    @GetMapping("/hello-world")
+    @GetMapping("/hello")
     public String sayHello() {
         return "hello world";
     }
