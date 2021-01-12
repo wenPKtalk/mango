@@ -8,8 +8,8 @@ allprojects {
     apply plugin: 'idea'
     repositories {
         maven { url 'https://maven.aliyun.com/repository/public/' }
-		mavenLocal()
-		mavenCentral()
+        mavenLocal()
+        mavenCentral()
     }
 }
 idea.project.ipr {
@@ -34,6 +34,10 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf:2.4.1'
     implementation 'org.springframework.boot:spring-boot-starter-web:2.4.1'
     implementation 'com.baomidou:mybatis-plus-boot-starter:3.4.1'
+    compileOnly 'org.projectlombok:lombok:1.18.16'
+    annotationProcessor 'org.projectlombok:lombok:1.18.16'
+    testCompileOnly 'org.projectlombok:lombok:1.18.16'
+	testAnnotationProcessor 'org.projectlombok:lombok:1.18.16'
     testImplementation 'org.springframework.boot:spring-boot-starter-test:2.4.1'
 }
 
