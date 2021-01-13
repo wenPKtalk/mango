@@ -1,4 +1,4 @@
-package com.free.guifei.mapper;
+package com.free.guifei.entity;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
