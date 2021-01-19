@@ -31,9 +31,12 @@ sourceCompatibility = '11'
 targetCompatibility = '11'
 
 dependencies {
+     //spring boot 基础依赖
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf:2.4.1'
     implementation 'org.springframework.boot:spring-boot-starter-web:2.4.1'
+    //mybatis 基础依赖
     implementation 'com.baomidou:mybatis-plus-boot-starter:3.4.1'
+    //mapper生成器 基础依赖
     implementation 'com.baomidou:mybatis-plus-generator:3.4.1'
     implementation 'org.apache.velocity:velocity-engine-core:2.2'
     implementation 'org.freemarker:freemarker:2.3.30'
